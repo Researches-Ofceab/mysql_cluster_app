@@ -1,0 +1,32 @@
+[ndbd default]
+NoOfReplicas = 1
+DataMemory= 1G
+IndexMemory=18M
+
+LogLevelStartup = 15
+LogLevelShutdown = 15
+LogLevelConnection = 15
+LogLevelInfo = 15
+LogLevelError = 15
+LogLevelNodeRestart = 15
+LogLevelCheckpoint = 15
+
+[ndb_mgmd]
+NodeId = 254
+HostName = 172.168.0.2
+
+[ndbd]
+NodeId = 2
+HostName = 172.168.0.3
+
+[ndbd]
+NodeId = 3
+HostName = 172.168.0.4
+
+[ndbd]
+NodeId = 4
+HostName = 172.168.0.5
+
+[mysqld]
+NodeId = 5
+HostName = 172.168.0.6
