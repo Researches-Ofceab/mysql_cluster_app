@@ -109,11 +109,11 @@
 .result-box {
     display: none;
     position: relative;
-    top: -3rem;
     width: 35%;
     height: 400px;
     overflow-y: scroll;
     scrollbar-width: none;
+    scrollbar-color: white;
 }
 
 
